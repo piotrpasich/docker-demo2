@@ -1,0 +1,20 @@
+Papi\PhpersBundle\Entity\User:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        username:
+            type: string
+            length: 255
+            column: Username
+        email:
+            type: string
+            length: 255
+        enabled:
+            type: boolean
+    lifecycleCallbacks: {  }

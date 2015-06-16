@@ -1,0 +1,12 @@
+imports:
+    - { resource: config.yml }
+
+doctrine:
+    dbal:
+        driver:   pdo_mysql
+        host:     "%database.host%"
+        port:     "%database_port%"
+        dbname:   "%database.name%"
+        user:     "%database.user%"
+        password: "%database.password%"
+        charset:  UTF8

@@ -1,0 +1,7 @@
+papi_phpers:
+    resource: "@PapiPhpersBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

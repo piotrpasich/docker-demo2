@@ -1,0 +1,15 @@
+<table style="width:100%;text-align: left">
+    <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Enabled</th>
+    </tr>
+    {% for user in users %}
+        <tr>
+            <td>{{ user.username }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.enabled ? 'Yes' : 'No' }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
