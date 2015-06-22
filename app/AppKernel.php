@@ -39,5 +39,4 @@ class AppKernel extends Kernel
             $container->getParameterBag()->add($envParameters);
         });
     }
-
 }
