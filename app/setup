@@ -2,7 +2,6 @@
 curl -sS https://getcomposer.org/installer | php
 ./composer.phar install
 
-rm app/cache/* -rf
 #app/console doctrine:database:create -q
 #app/console doctrine:schema:create -q
 #app/console doctrine:schema:update --force -q
