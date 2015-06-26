@@ -8,5 +8,6 @@ EXPOSE 80
 WORKDIR /var/app
 
 ADD . /var/app
+ADD docker/000-default.conf /etc/apache2/sites-available/000-default.conf
 
 RUN /bin/bash app/setup
